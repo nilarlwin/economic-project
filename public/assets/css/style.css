@@ -1,0 +1,114 @@
+body{
+    font-family:Cambria;
+}
+#navbar{
+    background-image: linear-gradient(#d9b3ff,#9966ff);
+    position:fixed;
+    width:100%;
+    z-index: 99;
+}
+#navbar:hover{
+    box-shadow: 2px 3px 4px gray;
+}
+#navbar ul li a:hover{
+    background-color: black;
+    border-radius: 20px;
+    padding:10px;
+}
+#banner{
+    background-image: linear-gradient(#d9b3ff,#9966ff);
+    color:white;
+    overflow: hidden;
+}
+.header-title{
+    margin-top:40px;
+    padding-top:40px;
+}
+.header-para{
+    padding:40px;
+}
+.header-button{
+    width:100px;
+    height:40px;
+    cursor:pointer;
+    border-radius:10%;
+    color:#9966ff;
+    border:none;
+}
+.header-button:hover{
+     background-color: black;
+     color:#9966ff;
+}
+.banner-image{
+    margin-top:80px;
+}
+.divider{
+    max-width: 100%;
+}
+.service-title{
+    color:#9966ff;
+}
+.service-image{
+    width:230px;
+    height:230px;
+}
+#app-box{
+    background-image: linear-gradient(#d9b3ff,#9966ff);
+    padding:10px;
+}
+.app-body{
+    margin-top:20px;
+}
+.app-body p{
+    padding: 30px;
+}
+.btn-app{
+    width:150px;
+    height:50px;
+    border-radius:20px;
+    font-weight: bold;
+    cursor:pointer;
+    border: none;
+}
+.btn-app:hover{
+    background-color:black;
+    color:#9966ff;
+}
+.card{
+   padding:0;
+   background-color: #9966ff;
+   color:#fff;
+   margin:40px;
+}
+.cart-btn{
+   display: inline-block;
+   width:150px;
+   height:40px;
+   cursor:pointer;
+   line-height:40px;
+   border-radius:20px;
+   background-color:#fff;
+   color:#9966ff;
+   font-weight:bold;
+}
+.cart-btn:hover{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+}
+.product-title{
+    color:#9966ff;
+}
+#footer{
+    background-image: linear-gradient(#d9b3ff,#9966ff);
+    color:#fff;
+    padding-bottom:5px;
+}
+.map{
+    text-align: center;
+}
+#footer-bar{
+    border-top:1px solid gray;
+    text-align:center;
+    padding:10px;
+}
